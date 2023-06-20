@@ -5,4 +5,4 @@ function volume_sphere() {
     volref.value=((4/3)*(3.1415926535898)*(rad*rad*rad)).toFixed(4)
 } 
 
-window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
+window.onload = document.getElementById('MyForm').onsubmit = volume_sphere();
