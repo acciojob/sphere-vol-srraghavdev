@@ -3,7 +3,7 @@ function volume_sphere(event) {
     let radref = document.getElementById('radius')
     let rad= radref.value
     let volref= document.getElementById("volume")
-    volref.value=((4/3)*(Math.pi)*(rad*rad*rad)).toFixed(4)
+    volref.value=(4/3)*(Math.PI)*(rad*rad*rad).toFixed(4)
 } 
 
 window.onload = function() {
